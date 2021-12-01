@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
     ImageView img;
     TextView t;
     ActivityResultLauncher<Intent> resLaunch;
-    StringBuilder sb;
+    StringBuilder sb,c;
     boolean firstTime = true;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
